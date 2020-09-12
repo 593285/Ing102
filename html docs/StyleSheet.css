@@ -1,0 +1,41 @@
+body {
+  font-family: "Arial", sans-serif; 
+
+  background-image: url('./background5.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3em;
+    margin-bottom: .3em;
+    padding-bottom: 16px;
+    padding-top: 16px;
+
+  }
+
+  .main{
+    background-color: rgba(240, 253, 255, 0.50);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .image{
+    max-width: 400px;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
