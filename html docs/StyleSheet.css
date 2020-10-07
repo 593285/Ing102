@@ -1,6 +1,6 @@
 body {
   font-family: "Arial", sans-serif; 
-
+  background-color: rgba(151, 189, 199, 0.80);
   background-image: url('./img/background5.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10,21 +10,36 @@ body {
 h1 {
   font-size: 3em;
     margin-bottom: .3em;
-    padding-bottom: 16px;
+    padding-bottom: 8px;
     padding-top: 16px;
+    margin-left: 24px;
+    font-weight: 400;
+  }
 
+  h1 a{
+    color: black; 
+  }
+
+  h2 {
+    font-weight: 600;
   }
 
   .main{
-    background-color: rgba(240, 253, 255, 0.50);
+    background-color: rgba(151, 189, 199, 0.80);
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 16px;
     padding-bottom: 16px;
+    
+  }
+
+  a {
+    color: midnightblue;
+    text-decoration: none;
   }
 
   .image{
-    max-width: 400px;
+    max-width: 500px;
   }
 
   table {
@@ -37,5 +52,60 @@ h1 {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+  }
+
+  .centeredHeader{
+    width: 100%;
+    justify-content: center;
+  align-items: center;
+  }
+  .centerDiv
+  {
+    width: 97%;
+    height:300px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  .div1
+  {
+    width: 33%;
+    height:240px;
+    background-color: rgba(240, 253, 255, 0.60);
+    float:left;
+  }
+  .div2
+  {
+    width: 34%;
+    height:240px;
+    background-color: rgba(240, 253, 255, 0.60);
+    float:left;
+  }
+  .div3
+  {
+    width: 33%;
+    height:240px;
+    background-color: rgba(240, 253, 255, 0.60);   
+    float:left;
+  }
+
+  .container {
+    width: 97%;
+    height: 240px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .one {
+    width: 48%;
+    height: 240px;
+    float: left;
+    padding: 16px;
+  }
+  
+  .two {
+    margin-left: 51%;
+    height: 240px;
+    padding: 16px;
   }
   
