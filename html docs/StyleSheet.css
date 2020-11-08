@@ -30,6 +30,7 @@ h1 {
     padding-right: 16px;
     padding-top: 16px;
     padding-bottom: 16px;
+    margin-bottom: 16px;
     
   }
 
@@ -107,5 +108,10 @@ h1 {
     margin-left: 51%;
     height: 240px;
     padding: 16px;
+  }
+
+  .content {
+    margin-top: 70px;
+    padding-top: 60px;
   }
   
